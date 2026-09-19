@@ -1,0 +1,51 @@
+html{
+    background-image: linear-gradient(to right, rgb(0,0,50), rgb(0,50,255));
+}
+body {
+    font-family: Arial, sans-serif;
+}
+a{
+    color:  blueviolet;
+} a:hover{
+    color: darkmagenta;
+}
+button{
+    border: none;
+    padding: 0%;
+}
+button a{
+    border: 4px solid blue;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: darkcyan;
+    display: inline-block;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: darkcyan;
+    width: 100%;
+}
+.stick {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkblue;
+}
+.dbg{
+    background-color: darkblue;
+}
+.center{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
