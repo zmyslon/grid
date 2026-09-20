@@ -25,6 +25,13 @@ button a{
     display: flex;
     justify-content: flex-end;
 }
+.githubref{
+    background-color: black;
+    color: white;
+    padding: 15px;
+} .githubref h3{
+    font-family: sans-serif; 
+}
 
 hr{
     border: none;
